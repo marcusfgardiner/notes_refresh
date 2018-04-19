@@ -8,7 +8,7 @@ get '/' do
 end
 
 get '/notes' do
-  p session[:note]
+  @note = session[:note]
   erb :index
 end
 
