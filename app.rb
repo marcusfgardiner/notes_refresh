@@ -2,7 +2,7 @@ require 'sinatra/base'
 
 class Notes < Sinatra::Base
 
-get '/' do
+get '/notes' do
   erb :index
 end
 
