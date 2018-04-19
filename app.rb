@@ -3,7 +3,7 @@ require 'sinatra/base'
 class Notes < Sinatra::Base
 
 get '/' do
-  "Note: Get Milk"
+  erb :index
 end
 
 end
